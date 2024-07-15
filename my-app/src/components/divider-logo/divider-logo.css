@@ -1,0 +1,19 @@
+.divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+}
+
+.divider-stick {
+    width: 60px;
+    height: 1px;
+    background-color: black;
+}
+
+.divider-logo {
+    background-image: url('../../img/coffee-logo-divider.png');
+    width: 30px;
+    height: 29px;
+}

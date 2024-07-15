@@ -1,5 +1,7 @@
 import './description.css';
 
+import DividerLogo from '../divider-logo/divider-logo';
+
 const Description = () => {
     return (
         <div className='description-wrapper'>
@@ -7,11 +9,7 @@ const Description = () => {
                 <div className='description-img'></div>
                 <div className='description-about'>
                     <h2 className='description-header'>About our beans</h2>
-                    <div className='description-between'>
-                        <div className='description-divider'></div>
-                        <div className='descripion-logo'></div>
-                        <div className='description-divider'></div>
-                    </div>
+                    <DividerLogo />
                     <div className='description-text'>
                         Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
                         <br></br>

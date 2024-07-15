@@ -4,35 +4,6 @@
     background-image: url('header-background.png');
 }
 
-.header-group {
-    padding-top: 50px;
-    padding-left: 150px;
-    width: 355px;
-    display: flex;
-    justify-content: space-between;
-    color: #FFFFFF;
-    font-size: 14px;
-    font-family: 'Merienda-Medium';
-}
-
-
-.header-first-elem {
-    position: relative;
-    display: flex;
-    height: 40px;
-}
-
-.header-first-elem::before {
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 35px;
-    background-image: url('coffee-logo.png');
-    position: absolute;
-    left: -35px;
-    top: -20px
-}
-
 .header-text {
     margin-top: 50px;
     font-size: 40px;
