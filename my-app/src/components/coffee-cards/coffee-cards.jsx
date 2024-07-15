@@ -2,18 +2,16 @@ import './coffee-cards.css';
 
 import CoffeeCardsItems from '../coffee-cards-items/coffee-cards-items';
 
-const CoffeeCards = () => {
-    const data = [
-        
-    ];
+const CoffeeCards = ({data}) => {
+    const elements = data.map(item => {
+        const {id, ...otherProps} = item;
+        return (
+            <CoffeeCardsItems key={id} {...otherProps} />
+        )
+    })
     return (
         <div className='coffee-cards'>   
-            <CoffeeCardsItems />
-            <CoffeeCardsItems />
-            <CoffeeCardsItems />
-            <CoffeeCardsItems />
-            <CoffeeCardsItems /> 
-            <CoffeeCardsItems /> 
+            {elements}
         </div>
     )
 }
