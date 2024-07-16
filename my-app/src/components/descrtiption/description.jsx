@@ -1,16 +1,16 @@
-import './description.css';
+import './description.scss';
 
 import DividerLogo from '../divider-logo/divider-logo';
 
 const Description = () => {
     return (
-        <div className='description-wrapper'>
-            <div className='description-flex'>
-                <div className='description-img'></div>
-                <div className='description-about'>
-                    <h2 className='description-header'>About our beans</h2>
-                    <DividerLogo />
-                    <div className='description-text'>
+        <div className='description'>
+            <div className='description__flex'>
+                <div className='description__img'></div>
+                <div className='description__about'>
+                    <h2 className='description__header'>About our beans</h2>
+                        <DividerLogo />
+                    <div className='description__text'>
                         Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
                         <br></br>
                         <br></br>
@@ -22,7 +22,7 @@ const Description = () => {
                     </div>
                 </div>
             </div>
-            <div className='decsription-footer-divider'></div>
+            <div className='description__footer-divider'></div>
         </div>
     )
 }

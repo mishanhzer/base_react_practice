@@ -1,4 +1,4 @@
-import './coffee-cards.css';
+import './coffee-cards.scss';
 
 import CoffeeCardsItems from '../coffee-cards-items/coffee-cards-items';
 

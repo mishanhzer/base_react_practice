@@ -1,0 +1,40 @@
+.link-coffee {
+    padding-top: 50px;
+    padding-left: 150px;
+    width: 355px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Merienda-Medium';
+    a {
+        color: #FFFFFF;
+        height: 18px;
+        text-decoration: none; 
+    }
+    &__first-elem {
+        position: relative;
+        display: flex;
+        height: 40px;
+        &_img {
+            position: absolute;
+        width: 40px;
+        height: 35px;
+        background-image: url('../../img/coffee-logo.png');
+        left: -35px;
+        top: -20px;
+        order: 5,
+        }
+    }
+}
+
+
+.link-coffee-img2 {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    background-image: url('../../img/coffee-logo2.png');
+    left: -35px;
+    top: -20px;
+    order: 5,
+}

@@ -1,0 +1,40 @@
+.description {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 700px;
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img {
+        width: 272px;
+        height: 355px;
+        background-image: url('descr.png');
+    }
+    &__about {
+        width: 346px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__header {
+        text-align: center;
+        font-size: 24px;
+        line-height: 34px;
+        font-family: 'Merienda-Medium';
+    }
+    &__text {
+        margin-top: 25px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        font-family: 'Merienda-Medium';
+    }
+    &__footer-divider {
+        margin: 0 auto;
+        margin-top: 60px;
+        width: 240px;
+        height: 1px;
+        background-color: black;
+    }
+}

@@ -5,7 +5,7 @@ import CoffeeCards from '../coffee-cards/coffee-cards';
 import LinkCoffee from '../link-coffee/link-coffee';
 import DividerLogo from '../divider-logo/divider-logo';
 
-import './app.css';
+import './app.scss';
 
 function App() {
     const data = [
