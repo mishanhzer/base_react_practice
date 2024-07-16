@@ -16,12 +16,36 @@ function App() {
         {country: 'Brazil', price: '6.99$', id: 5},
         {country: 'Brazil', price: '6.99$', id: 6}
     ];
+    const styleWrapper = {
+        'margin': '0 auto',
+        'marginTop': 30,
+        'paddingLeft': 0
+    };
+    const styleLink = {
+        'color': '#000000'
+    }
+    const styleImg = {
+        'height': 40,
+        'backgroundImage': "url('../../img/coffee-logo2.png')"
+    }
+
+    const styleWrapperDiv = {
+        'margin': '0 auto',
+        'marginTop': 20,
+        'marginBottom': 20,
+        'paddingLeft': 0
+    };
     return (
         <div className="app">
             <Header />
             <Description />
             <SearchPanel />
             <CoffeeCards data={data}/>
+            <LinkCoffee 
+                styleWrapper={styleWrapper} 
+                styleLink={styleLink} 
+                styleImg={styleImg} />
+            <DividerLogo styleWrapperDiv={styleWrapperDiv} />
         </div>
     );
 }

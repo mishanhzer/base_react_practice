@@ -1,15 +1,15 @@
 import './link-coffee.css';
 
-const LinkCoffee = () => {
+const LinkCoffee = ({styleWrapper, styleLink, styleImg}) => {;
     return (
-        <div className='link-coffee'>
+        <nav style={styleWrapper} className='link-coffee'>
             <div className='link-coffee-first-elem'>
-                <div></div>
-                <div>Coffee house</div>
+                <div style={styleImg} className='link-coffee-img'></div>
+                <a style={styleLink} href="https://www.peets.com">Coffee house</a>
             </div>
-            <div>Our coffee</div>
-            <div>Fan your pleasure</div>
-        </div>
+            <a style={styleLink} href="https://www.peets.com">Our coffee</a>
+            <a style={styleLink} href="https://www.peets.com">Fan your pleasure</a>
+        </nav>
     )
 }
 

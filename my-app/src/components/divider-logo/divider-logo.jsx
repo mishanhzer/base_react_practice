@@ -1,8 +1,8 @@
 import './divider-logo.css';
 
-const DividerLogo = () => {
+const DividerLogo = ({styleWrapperDiv}) => {
     return (
-        <div className='divider'>
+        <div style={styleWrapperDiv} className='divider'>
             <div className='divider-stick'></div>
             <div className='divider-logo'></div>
             <div className='divider-stick'></div>
