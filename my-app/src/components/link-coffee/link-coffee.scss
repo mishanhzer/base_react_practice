@@ -18,23 +18,40 @@
         height: 40px;
         &_img {
             position: absolute;
-        width: 40px;
-        height: 35px;
-        background-image: url('../../img/coffee-logo.png');
-        left: -35px;
-        top: -20px;
-        order: 5,
+            width: 40px;
+            height: 35px;
+            background-image: url('../../img/coffee-logo.png');
+            left: -35px;
+            top: -20px;
+            order: 5,
+        }
+        &_img2 {
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            background-image: url('../../img/coffee-logo2.png');
+            left: -35px;
+            top: -20px;
+            order: 5,
+        }
+        &_link {
+            color: #000000;
         }
     }
 }
 
-
-.link-coffee-img2 {
-    position: absolute;
-    width: 40px;
-    height: 35px;
-    background-image: url('../../img/coffee-logo2.png');
-    left: -35px;
-    top: -20px;
-    order: 5,
+.link-coffee-black {
+    padding-top: 50px;
+    width: 355px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: 'Merienda-Medium';
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 0;
+    a {
+        text-decoration: none;
+        color: #000;
+    }
 }

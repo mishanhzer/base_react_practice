@@ -3,10 +3,10 @@ import '../../img/coffee-logo.png';
 
 import LinkCoffee from '../link-coffee/link-coffee'
 
-const Header = () => {
+const Header = ({linkWhite}) => {
     return (
         <div className='header'>
-            <LinkCoffee />
+            <LinkCoffee linkWhite={linkWhite}/>
             <h2 className='header__text'>Our Coffee</h2>
         </div>
     )

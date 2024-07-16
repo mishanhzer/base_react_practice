@@ -1,10 +1,19 @@
 import './link-coffee.scss';
 
-const LinkCoffee = ({styleWrapper, styleLink, styleImg}) => {;
+const LinkCoffee = ({styleLink, linkWhite}) => {;
+    let classNames = '';
+    let newStyled = '';
+    if (linkWhite) {
+        newStyled = 'link-coffee';
+        classNames = 'link-coffee__first-elem_img';
+    } else {
+        newStyled = 'link-coffee-black';
+        classNames = 'link-coffee__first-elem_img2';
+    }
     return (
-        <nav style={styleWrapper} className='link-coffee'>
+        <nav className={newStyled}>
             <div className='link-coffee__first-elem'>
-                <div style={styleImg} className='link-coffee__first-elem_img'></div>
+                <div className={classNames}></div>
                 <a style={styleLink} href="https://www.peets.com">Coffee house</a>
             </div>
             <a style={styleLink} href="https://www.peets.com">Our coffee</a>
