@@ -1,7 +1,6 @@
 import './divider-logo.scss';
 
 const DividerLogo = ({boolDivider}) => {
-    console.log(boolDivider);
     let classNames = '';
     if (boolDivider) {
         classNames = 'divider2'

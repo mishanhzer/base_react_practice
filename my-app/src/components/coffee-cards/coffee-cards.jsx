@@ -9,10 +9,11 @@ const CoffeeCards = ({data}) => {
             <CoffeeCardsItems key={id} {...otherProps} />
         )
     })
+    
     return (
-        <div className='coffee-cards'>   
+        <ul className='coffee-cards'>   
             {elements}
-        </div>
+        </ul>
     )
 }
 

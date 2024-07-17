@@ -1,63 +1,22 @@
-.search-panel {
-    margin: 0 auto;
-    margin-top: 60px;
-    width: 695px;
+.panel__look {
+    width: 284px;
     display: flex;
     justify-content: space-between;
-    &__look {
-        width: 284px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        &_text {
-            font-family: 'Merienda-Medium';
-            font-size: 14px;
-        }
-        &_input {
-            width: 180px;
-            height: 30px;
-            border-radius: 4px;
-            border: 0;
-            box-shadow: 4px 4px 18px  0.25px rgba(0, 0, 0, 0.25);
-            text-align: center;
-            font-family: 'Merienda-Medium';
-            font-size: 12px;
-            background-color: rgba(255, 255, 255, 1);
-        }
+    align-items: center;
+    &_text {
+        font-family: 'Merienda-Medium';
+        font-size: 14px;
     }
-    &__filter {
-        display: flex;
-        width: 326px;
+    &_input {
+        width: 180px;
         height: 30px;
-        justify-content: space-between;
-        align-items: center;
-        &_text {
-            font-family: 'Merienda-Medium';
-            font-size: 14px;
-        }
-        &_buttons {
-            display: flex;
-            justify-content: space-between;
-            width: 240px;
-        }
-        &_button {
-            width: 75px;
-            height: 30px;
-            background-color: rgba(255, 255, 255, 1);
-            margin-right: 5px;
-            border-radius: 4px;
-            border: 0;
-            box-shadow: 4px 4px 18px  0.25px rgba(0, 0, 0, 0.25);
-            font-family: 'Merienda-Medium';
-            font-size: 12px;
-            line-height: 17px;
-            color: rgba(0, 0, 0, 1);
-            &:hover {
-                cursor: pointer;
-            }
-        }
+        border-radius: 4px;
+        border: 0;
+        box-shadow: 4px 4px 18px  0.25px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        font-family: 'Merienda-Medium';
+        font-size: 12px;
+        background-color: rgba(255, 255, 255, 1);
     }
 }
-
-
 

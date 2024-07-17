@@ -2,7 +2,7 @@ import './coffee-cards-items.scss';
 
 const CoffeeCardsItems = ({country, price}) => {
     return (
-        <div className='coffee-cards-items'>
+        <li className='coffee-cards-items'>
             <div className='coffee-cards-items__wrapper'>
                 <div className='coffee-cards-items__img'></div>
                 <div className='coffee-cards-items__descr'>
@@ -11,7 +11,7 @@ const CoffeeCardsItems = ({country, price}) => {
                     <div className='coffee-cards-items__salary'>{price}</div>
                 </div>
             </div>
-        </div>
+        </li>
     )
 }
 
