@@ -8,12 +8,13 @@
 
     &:hover {
         cursor: pointer;
+        transition: all 0.5s;
+        transform: scale(1.05);
     }
     &__wrapper {
         display: flex;
         flex-direction: column;
         margin-left: 26px;
-        // margin-right: 27px;
     }
     &__descr {
         width: 172px;
