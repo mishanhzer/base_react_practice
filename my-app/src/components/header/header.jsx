@@ -1,7 +1,7 @@
 import './header.scss';
 import '../../img/coffee-logo.png';
 
-import LinkCoffee from '../link-coffee/link-coffee'
+import LinkCoffee from '../link-coffee/link-coffee';
 
 const Header = ({linkWhite}) => {
     return (

@@ -1,6 +1,6 @@
 import './link-coffee.scss';
 
-const LinkCoffee = ({styleLink, linkWhite}) => {;
+const LinkCoffee = ({styleLink, linkWhite}) => {
     let classNames = '';
     let newStyled = '';
     if (linkWhite) {

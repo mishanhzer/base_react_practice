@@ -1,6 +1,6 @@
 import './filter.scss';
 
-const Filter = (props) => {
+const Filter = ({updStateFilter, filter}) => {
     const btnsData = [
         {name: 'All'},
         {name: 'Brazil'},
@@ -8,16 +8,12 @@ const Filter = (props) => {
         {name: 'Columbia'}
     ];
 
-    const onFilter = (e) => {
-        const filter = e.target.name;
-        props.updStateFilter(filter);
-    }
 
     const btns = btnsData.map(({name}) => {
-        const active = props.filter === name;
+        const active = filter === name;
         const clazz = active ? 'filter__button_active' : 'filter__button';
         return (
-            <button onClick={(e) => onFilter(e)} className={clazz} name={name} key={name}>{name}</button>
+            <button onClick={() => updStateFilter(name)} className={clazz} key={name}>{name}</button>
         )
     });
 
